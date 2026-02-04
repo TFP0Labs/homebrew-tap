@@ -2,6 +2,9 @@
 
 Useful iOS, macOS, and Apple product reverse engineering utilities packaged for Homebrew.
 
+## Included Formulae
+ - [`gxpc`](https://github.com/ReverseApple/gxpc), a tool to sniff XPC communication using Frida and Go
+
 ## How do I install these formulae?
 
 `brew install tfp0labs/tap/<formula>`
