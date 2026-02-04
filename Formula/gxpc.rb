@@ -4,6 +4,13 @@ class Gxpc < Formula
   version "2.2.1"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/TFP0Labs/homebrew-tap/releases/download/gxpc-2.2.1"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "d9c20da3a0351b08ed1350054a25357e37b1fe6bebe0fc04dcf511b5333d24ae"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "4196d81431555bebe1712c8c09235f95af97226416d15dc950ef9638b58a895a"
+  end
+
   depends_on :macos
 
   # npm is required for building Frida modules at runtime.
