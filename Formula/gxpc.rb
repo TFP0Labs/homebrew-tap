@@ -20,6 +20,6 @@ class Gxpc < Formula
   end
 
   test do
-    assert_match "gxpc shows version", shell_output("#{bin}/gxpc -v")
+    system bin/"gxpc", "-v"
   end
 end
